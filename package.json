@@ -1,6 +1,6 @@
 {
   "name": "@hlkittipan/react-native-bluetooth-escpos-printer",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "private": false,
   "description": "React-Native plugin for the bluetooth ESC/POS printers.",
   "main": "index.js",
