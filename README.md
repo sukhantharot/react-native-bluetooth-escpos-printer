@@ -16,7 +16,7 @@ Any questions or bug please raise a issue.
 ### Step 1 ###
 Install via NPM [Check In NPM](https://www.npmjs.com/package/react-native-bluetooth-escpos-printer)
 ```bash
-npm install @hlkittipan/react-native-bluetooth-escpos-printer --save
+npm install sukhantharot-react-native-bluetooth-escpos-printer --save
 ```
 
 Or install via github
@@ -27,7 +27,7 @@ npm install https://github.com/sukhnatharot/react-native-bluetooth-escpos-printe
 ### Step2 ###
 Link the plugin to your RN project
 ```bash
-react-native link react-native-bluetooth-escpos-printer
+react-native link sukhantharot-react-native-bluetooth-escpos-printer
 ```
 
 ### Manual linking (Android) ###
@@ -36,15 +36,15 @@ Ensure your build files match the following requirements:
 1. (React Native 0.59 and lower) Define the *`react-native-bluetooth-escpos-printer`* project in *`android/settings.gradle`*:
 
 ```
-include ':react-native-bluetooth-escpos-printer'
-project(':react-native-bluetooth-escpos-printer').projectDir = new File(rootProject.projectDir, '../node_modules/@hlkittipan/react-native-bluetooth-escpos-printer/android')
+include ':sukhantharot-react-native-bluetooth-escpos-printer'
+project(':sukhantharot-react-native-bluetooth-escpos-printer').projectDir = new File(rootProject.projectDir, '../node_modules/sukhantharot-react-native-bluetooth-escpos-printer/android')
 ```
 2. (React Native 0.59 and lower) Add the *`react-native-bluetooth-escpos-printer`* as an dependency of your app in *`android/app/build.gradle`*:
 ```
 ...
 dependencies {
   ...
-  implementation project(':react-native-bluetooth-escpos-printer')
+  implementation project(':sukhantharot-react-native-bluetooth-escpos-printer')
 }
 ```
 
